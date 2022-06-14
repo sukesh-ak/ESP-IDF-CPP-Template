@@ -10,7 +10,7 @@
 
 ## Example folder contents
 
-The project **sample_project** contains one source file in C language [main.cpp](main/main.cpp). The file is located in folder [main](main).
+The project **sample_project** contains one source file in C++ language [main.cpp](main/main.cpp). The file is located in folder [main](main).
 
 ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
 files that provide set of directives and instructions describing the project's source files and targets
