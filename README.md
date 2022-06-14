@@ -3,6 +3,7 @@
 
 ## How to use
  > Clone `git clone https://github.com/sukesh-ak/ESP-IDF-CPP-Template.git`  
+ > Set device target `idf.py set-target esp32` or esp32s2 / esp32c3 / esp32s3  
  > Change firmware/project name in CMakeLists.txt file in the root  
  > Run `idf.py menuconfig`  
  > Build `idf.py build`  
