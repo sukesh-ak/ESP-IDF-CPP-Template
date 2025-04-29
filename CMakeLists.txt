@@ -4,5 +4,10 @@
 # CMakeLists in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.5)
 
+# Make sure sdkconfig is created in the build folder
+set(SDKCONFIG "${CMAKE_BINARY_DIR}/sdkconfig")
+
+#set(EXTRA_COMPONENT_DIRS <projectname>/components/)
+
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(cpp-template-app)
