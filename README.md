@@ -1,6 +1,12 @@
 # ESP-IDF-CPP-Template
 **Quick Application Firmware Template to get your started**
 
+## Add components from registry
+```bash
+# Add fmt
+idf.py add-dependency "espressif/fmt^11.0.1"
+```
+
 ## How to use
  > Clone `git clone https://github.com/sukesh-ak/ESP-IDF-CPP-Template.git`  
  > Set device target `idf.py set-target esp32` or esp32s2 / esp32c3 / esp32s3  
